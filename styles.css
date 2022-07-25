@@ -4,7 +4,7 @@ body{
 }
 
 .jumbotron {
-    background-image: url("/images/bacteria.png");
+    background-image: url("https://www.istockphoto.com/photo/abs-lactobacillus-bulgaricus-bacteria-gm1378969848-442719588");
     background-size: cover;
     background-position: center;
     color: azure;
