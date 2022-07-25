@@ -4,7 +4,7 @@ body{
 }
 
 .jumbotron {
-   background-image: url("/images/bact.png");
+/*    background-image: url("/images/bact.png"); */
     background-size: cover;
     background-position: center;
     color: rgb(16, 17, 17);
