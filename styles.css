@@ -1,0 +1,11 @@
+
+body{
+    background-color: rgb(241, 243, 247);
+}
+
+.jumbotron {
+    background-image: url("https://images.app.goo.gl/AaKa9ZnTndZs7AF29");
+    background-size: cover;
+    background-position: center;
+    color: rgb(16, 17, 17);
+}
