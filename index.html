@@ -11,6 +11,7 @@
 </head>
 
 <body style="background-color: rgb(226, 226, 231);">
+  
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center" style="background-image: url('https://images.immediate.co.uk/production/volatile/sites/4/2018/07/iStock_000021655524_Large-a2de642.jpg?quality=90&resize=940%2C400'); 
@@ -23,7 +24,6 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.</h5>
-          <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
@@ -33,9 +33,11 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
+
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
+      
       <div class="col-md-5">
         <div id="gauge"></div>
       </div>
@@ -45,13 +47,10 @@
         <div id="bubble"></div>
       </div>
     </div>
-
     <div class="row">
       <br />
       <br />
     </div>
-
-
   </div>
 
 
@@ -61,5 +60,4 @@
   <script src="charts.js"></script>
 
 </body>
-
 </html>
